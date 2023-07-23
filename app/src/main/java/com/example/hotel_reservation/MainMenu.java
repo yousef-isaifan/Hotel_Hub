@@ -89,7 +89,6 @@ public class MainMenu extends AppCompatActivity implements
     }
 
     private void checkPrefs() {
-
         String str = prefs.getString("USER", "");
         User user = gson.fromJson(str, User.class);
 
@@ -99,7 +98,6 @@ public class MainMenu extends AppCompatActivity implements
         String phoneNumber = user.getTelephone();
 
         LoggedUser = new User(firstName, lastName, email, phoneNumber);
-
 
     }
 
