@@ -75,7 +75,6 @@ public class MainMenu extends AppCompatActivity implements
         checkPrefs();
         getReservations();
         setNavHeader();
-        System.out.println();
     }
 
     private void getReservations() {
